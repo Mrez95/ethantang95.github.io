@@ -23,6 +23,11 @@
     src: url("../fonts/REIS/REIS.ttf");
     font-weight: 500;
 }
+@font-face{
+    font-family: "ABC";
+    src: url("../fonts/Kingthings-Wrote/Kingthings_Wrote.ttf");
+    font-weight: 500; 
+}
 @-webkit-keyframes menu-glow{
     0%{
         text-shadow: none;
@@ -248,10 +253,10 @@ nav{
     -ms-transition: all .4s ease;
     -webkit-transition: all .4s ease;
     text-align: center;
-    font-family: "MyriadSetPro","Open Sans",sans-serif;
-    font-size: 1.8em;
+    font-family: "ABC","Open Sans",sans-serif;
+    font-size: 1.4em;
     font-weight: 300;
-    color: #eeeeee;
+    color: #eeeeee; 
 }
 #intro .container span{
     font-size: 0.25em;

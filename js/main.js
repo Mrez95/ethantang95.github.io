@@ -87,7 +87,7 @@ $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 
         if (width <= 720) {
             $workSection.css("height", $jobDets.height() + 60 + "px");
         }
-        $introCont.find("p").html("For it is in giving that we receive.<br>Wonders start here. One gift at a time.");
+        $introCont.find("p").html("Wonders start here. One gift at a time.");
         $introCont.find("h1").html("WONDER GIFT");
         $aboutHead.html("A<span>bout me.</span>");
         $workHead.html("W<span>ork experience.</span>");
