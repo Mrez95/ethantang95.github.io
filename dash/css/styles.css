@@ -24,7 +24,24 @@
 	border-radius: 4px;
 	background-color: #CC6666;
 	color:#202020;
+}
 
+#profile_name2 {
+	display:inline-block;
+	margin-top:0.4%;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.42857143;
+	text-align: center;
+	vertical-align: middle;
+	color:#202020;
+	border-bottom: 1px solid;
+	border-color: #cc01e1;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.accent_line {
 }
 
 .main_info {
