@@ -1,0 +1,10 @@
+/* Author */        
+Name: Timothy Tong
+School: University of Waterloo
+Occupation: 2A Computer Engineering Student
+
+/* SITE */
+Standards: HTML5, CSS3, Javascript
+Components: jQuery, Parallax.js
+
+                          
