@@ -134,6 +134,29 @@ $(document).ready(function () {
             }, 2200, 'swing');
             $(this).dequeue();
     });
+            $("#logo-main").delay(1500)
+        .queue(function() {
+            $(this).stop().animate({
+                top: '10px',
+                opacity: '1'
+            }, 2200, 'swing');
+            $(this).dequeue();
+    });
+$(".back-to-top")
+.on("mouseenter", function() {
+    $(".nav-logo").attr("src", "images/logo/logo-red.png");
+    $(this).css({
+        color: "rgba(182,156,255,0.5)",
+        transition: "color ease 2s"
+    })
+})
+$(".back-to-top").on("mouseleave", function() {
+    $(".nav-logo").attr("src", "images/logo/white-logo-3.png");
+    $(this).css({
+        color: "rgba(182,156,255,0.5)",
+        transition: "color ease 2s"
+    })
+})
     $(window).resize(function () {
         resizeContent();
     });
