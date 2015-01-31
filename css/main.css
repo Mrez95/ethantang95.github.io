@@ -25,8 +25,8 @@
 }
 @font-face{
     font-family: "ABC";
-    src: url("../fonts/Kingthings-Wrote/Kingthings_Wrote.ttf");
-    font-weight: 500; 
+    src: url("../fonts/SF-Burlington-Script/SF_Burlington_Script_Italic.ttf");
+    font-weight: 100; 
 }
 @-webkit-keyframes menu-glow{
     0%{
@@ -254,9 +254,17 @@ nav{
     -webkit-transition: all .4s ease;
     text-align: center;
     font-family: "ABC","Open Sans",sans-serif;
-    font-size: 1.4em;
+    font-size: 2.7em;
     font-weight: 300;
     color: #eeeeee; 
+}
+#intro .container .slogan{
+    display:block;
+    position:relative;
+    overflow:hidden;
+    top:35px;
+    height:100%;
+    opacity: 0;
 }
 #intro .container span{
     font-size: 0.25em;

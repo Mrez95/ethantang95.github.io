@@ -126,6 +126,14 @@ $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 
 $(document).ready(function () {
     var width = $(window).width();
     resizeContent();
+    $(".container .slogan").delay(1700)
+        .queue(function() {
+            $(this).stop().animate({
+                top: '10px',
+                opacity: '1'
+            }, 2200, 'swing');
+            $(this).dequeue();
+    });
     $(window).resize(function () {
         resizeContent();
     });
