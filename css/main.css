@@ -577,6 +577,112 @@ footer a:hover{
 }
 
 /*work END*/
+   .box{
+        height:50px !important;
+        margin-bottom: 3px !important;
+    }
+    .box h5{
+        font-size: 15px;
+        margin-top:15px;
+    }
+    .demo-3{
+        width:400px !important;
+        margin: auto !important;
+        padding:0px !important;
+    }
+    .box {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    font-size:25px !important; 
+    width: 130px;
+    height: 60px;
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #2c3e50;
+    box-shadow: inset 0 0 0 3px #2c3e50;
+    -webkit-transition: background .4s .5s;
+    transition: background .4s .5s;
+}
+.box svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box svg line {
+    stroke-width: 3;
+    stroke: rgba(255, 255, 255, .3);
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+.box svg line.bottom, .box svg line.top {
+    stroke-dasharray: 130 110;
+}
+.box svg line.left, .box svg line.right {
+    stroke-dasharray: 60 30;
+}
+.demo-3 .box {
+    background: 0 0;
+    color: #fff;
+    box-shadow: none;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+}
+.demo-3 .box:hover {
+    background: rgba(0, 0, 0, .2);
+}
+.demo-3 .box h3, .demo-3 .box span {
+    -webkit-transition: none;
+    transition: none;
+}
+.demo-3 .box svg line {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.demo-3 .box:hover svg line {
+    stroke-width: 8;
+    stroke: rgba(255, 255, 255, .4);
+}
+.box h5 {
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+.demo-3 .box:hover h5 {
+    color: rgba(255, 255, 255, .8);
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
+}
+.demo-3 .box:hover svg line.top {
+    -webkit-transform: translateX(-120px);
+    transform: translateX(-120px);
+}
+.demo-3 .box:hover svg line.bottom {
+    -webkit-transform: translateX(120px);
+    transform: translateX(120px);
+}
+.demo-3 .box:hover svg line.left {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+}
+.demo-3 .box:hover svg line.right {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+.box:hover svg line.left {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+.box:hover svg line.right {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+section.demo-3 {
+    padding: 4em 2em;
+    text-align: center;
+}
 
 /*quote BEGIN*/
 #quote .container{
