@@ -1,7 +1,37 @@
-.imagee {
-	position:absolute;
-	padding: 20px;
-	margin-right: 50%;
-	margin-left: 50%;
-	margin-top:20%;
+#imagee {
+	display:block;
+	margin-top:10%;
+	margin-right: auto;
+	margin-left: auto;
 }
+
+#profile_name {
+	display:inline-block;
+	margin:0.4%;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	vertical-align: middle;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-color: #CC6666;
+
+}
+
+.main_info {
+	margin-top: 0.4%;
+	padding:0.4%;
+	display:block;
+	background-color: ;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.info_font{
+	
+}
+
