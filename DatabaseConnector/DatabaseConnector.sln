@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnector", "DatabaseConnector\DatabaseConnector.csproj", "{66F79B7E-14E5-4029-B65B-6B8463406378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectorService", "DBConnectorService\DBConnectorService.csproj", "{50F9DBC7-153E-4AF0-95E6-550C7567FAD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F79B7E-14E5-4029-B65B-6B8463406378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F79B7E-14E5-4029-B65B-6B8463406378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F79B7E-14E5-4029-B65B-6B8463406378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F79B7E-14E5-4029-B65B-6B8463406378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F9DBC7-153E-4AF0-95E6-550C7567FAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F9DBC7-153E-4AF0-95E6-550C7567FAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F9DBC7-153E-4AF0-95E6-550C7567FAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F9DBC7-153E-4AF0-95E6-550C7567FAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\bin\Debug\DatabaseConnector.exe.config
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\bin\Debug\DatabaseConnector.exe
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\bin\Debug\DatabaseConnector.pdb
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\obj\Debug\DatabaseConnector.csprojResolveAssemblyReference.cache
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\obj\Debug\DatabaseConnector.exe
+C:\Users\Not-A-Mac\Documents\GitHub\HackUofT\DatabaseConnector\DatabaseConnector\obj\Debug\DatabaseConnector.pdb
