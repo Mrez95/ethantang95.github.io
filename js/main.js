@@ -78,7 +78,7 @@ var resizeContent = function () {
 $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 + 'px');
 
     if (width <= 500) {
-        $introCont.find("p").html("Technology Enthusiast</br>Perfectionist</br>Animal Lover");
+        $introCont.find("p").html("Kindess");
         $introCont.find("h1").html("timothy</br>tong");
         $aboutHead.html("A<span>bout.</span>");
         $workHead.html("W<span>ork.</span>");
@@ -87,7 +87,7 @@ $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 
         if (width <= 720) {
             $workSection.css("height", $jobDets.height() + 60 + "px");
         }
-        $introCont.find("p").html("Technology Enthusiast <span class='dot'><i class='fa fa-circle'></i></span> Perfectionist <span class='dot'><i class='fa fa-circle'></i></span> Animal Lover");
+        $introCont.find("p").html("Wonders start here. One gift at a time.");
         $introCont.find("h1").html("WONDER GIFT");
         $aboutHead.html("A<span>bout me.</span>");
         $workHead.html("W<span>ork experience.</span>");
@@ -126,6 +126,14 @@ $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 
 $(document).ready(function () {
     var width = $(window).width();
     resizeContent();
+    $(".container .slogan").delay(1700)
+        .queue(function() {
+            $(this).stop().animate({
+                top: '10px',
+                opacity: '1'
+            }, 2200, 'swing');
+            $(this).dequeue();
+    });
     $(window).resize(function () {
         resizeContent();
     });
