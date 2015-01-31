@@ -652,8 +652,8 @@ footer a:hover{
     color: rgba(255, 255, 255, .8);
     -webkit-transition: all .6s;
     transition: all .6s;
-    -webkit-transform: scale(0.93);
-    transform: scale(0.93);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 .demo-3 .box:hover svg line.top {
     -webkit-transform: translateX(-120px);
