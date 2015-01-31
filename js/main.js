@@ -126,7 +126,7 @@ $contactSec.css("height", $contactCont.height() + $contactSecHead.height() + 70 
 $(document).ready(function () {
     var width = $(window).width();
     resizeContent();
-    $(".container .slogan").delay(1700)
+    $(".container .slogan").delay(1000)
         .queue(function() {
             $(this).stop().animate({
                 top: '10px',
@@ -239,7 +239,7 @@ $(document).ready(function () {
     if (chrome > 0 || parseInt(browser.substring(msie + 5, browser.indexOf(".", msie))) <= 9) {
         $introSection.addClass("intro-static");
     } else {
-        $introSection.parallax({imageSrc: './images/background/6873411-present-pictures.jpg'});
+        $introSection.parallax({imageSrc: './images/background/background_2.png'});
     }
     $('#pivotal-link').hover(function () {
         $("#pivotal-link #blue").toggleClass("blue");
