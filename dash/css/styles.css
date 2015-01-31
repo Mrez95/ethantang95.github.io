@@ -1,5 +1,5 @@
 @font-face {
-	font-family:"CaviarDreams";
+	font-family:"Champagne&Limousines";
 	src: url(font/Champagne&Limousines.ttf);
 }
 
@@ -23,6 +23,7 @@
 	border: 1px solid transparent;
 	border-radius: 4px;
 	background-color: #CC6666;
+	color:#202020;
 
 }
 
@@ -34,6 +35,12 @@
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	font-family: 'Champagne&Limousines';
+	
+}
+
+.accent_text {
+	color: #181818;
 }
 
 p.info_font{
@@ -41,14 +48,14 @@ p.info_font{
 	font-size: 16px;
 	margin-top: 0.4%;
 	padding:0.2%;
+	color: #505050;
 }
 
 .option_button_blocks {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;s
-	background-color: green;
+	position: relative;
 	line-height: 20px;
 	width:33%;
 }
@@ -79,5 +86,26 @@ p.info_font{
 
 .button-extra2 {
 	float:right;
+}
 
+.bottombar {
+	position:relative;
+	background-color: white;
+	margin-top: -40px;
+	height:180px;
+	clear:both;
+}
+
+body.dashboard {
+	background-color: #cc01e1;
+	height:100%;	
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: :auto;
+	padding-bottom: 100px;
 }
