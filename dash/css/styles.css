@@ -47,10 +47,30 @@ p.info_font{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
+	position: relative;s
 	background-color: green;
 	line-height: 20px;
 	width:33%;
+}
+
+@media screen and (max-width: 1000px){
+	.option_button_blocks {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.option_button_blocks {
+		display:block;
+		width:55%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.option_button_blocks {
+		display:block;
+		width:75%;
+	}
 }
 
 .button-extra {
