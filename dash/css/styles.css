@@ -1,6 +1,11 @@
-#imagee {
+@font-face {
+	font-family:"CaviarDreams";
+	src: url(font/Champagne&Limousines.ttf);
+}
+
+#imagee {	
 	display:block;
-	margin-top:10%;
+	margin-top:8%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -9,7 +14,7 @@
 	display:inline-block;
 	margin:0.4%;
 	padding: 6px 12px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.42857143;
 	text-align: center;
@@ -31,7 +36,28 @@
 	text-align: center;
 }
 
-.info_font{
-	
+p.info_font{
+	font-weight: normal;
+	font-size: 16px;
+	margin-top: 0.4%;
+	padding:0.2%;
 }
 
+.option_button_blocks {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-color: green;
+	line-height: 20px;
+	width:33%;
+}
+
+.button-extra {
+	float:left;
+}
+
+.button-extra2 {
+	float:right;
+
+}
